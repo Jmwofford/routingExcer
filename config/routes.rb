@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :tigers, only: [:create, :destroy, :index]
 
   namespace :sports do
-    resources :basketball_players, only: [:edit, :update, :show,:index]
+    resources :basketball_players, only: [:edit, :update,:show,:index]
     resources :boxers, only: :index
 
     namespace :historical do
