@@ -1,4 +1,4 @@
-class BasketballPlayersController < ActionController::Base
+class Sports::BasketballPlayersController < ActionController::Base
 
   def index
      redirect_to root_path, notice: 'BALLLLIIIINNNN !'
