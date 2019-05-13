@@ -1,0 +1,16 @@
+<ul><h3>Routes Index : </h3>
+<hr>
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+  <br><hr>
+<% end %>
+<hr>
+<%= link_to " DuckController ", ducks_path, notice: " Controller Hit." %>
+
+<%= link_to " TigerController ", tigers_path, notice: " Controller Hit." %>
+
+<%= link_to " BallerController ", sports_basketball_player_path("lebron") ,notice: " Controller Hit." %>
+
+<%= link_to " BoxerController ", tigers_path, notice: " Controller Hit." %>
+
+</ul>

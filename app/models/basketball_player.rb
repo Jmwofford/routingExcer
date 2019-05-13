@@ -1,0 +1,2 @@
+class BasketballPlayer < ApplicationRecord
+end
